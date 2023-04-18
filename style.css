@@ -1,1 +1,23 @@
 
+body {
+    background-color: lightblue;
+}
+
+.head {
+    background-color: lightgreen;
+    margin-top: 30px;
+    height: 800px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: limegreen;
+    border-radius: 20px;
+}
+.technologyin {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 225px;
+}
+.animation {
+    text-align: center;
+    font-size: 130px;
+}
