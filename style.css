@@ -6,11 +6,11 @@ body {
 .head {
     background-color: lightgreen;
     margin-top: 30px;
-    height: 800px;
     border-width: 5px;
     border-style: solid;
     border-color: limegreen;
     border-radius: 20px;
+    padding-bottom: 250px;
 }
 .technologyin {
     text-align: center;
@@ -20,4 +20,34 @@ body {
 .animation {
     text-align: center;
     font-size: 130px;
+}
+.contexthead {
+    text-align: center;
+    font-size: 50px;
+}
+.context {
+    font-size: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.image {
+    background-color: white;
+    height: 300px;
+    width: 600px;
+    margin-left: 40px;
+}
+#3dbox {
+    height: 500px;
+
+}
+@media (max-width: 992px) {
+    .contexthead {
+        text-align: center;
+        font-size: 30px;
+    }
+    .context {
+        font-size: 20px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
 }
