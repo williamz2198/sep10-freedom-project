@@ -10,7 +10,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
-
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
         <style>
 
             /* CSS */
@@ -21,7 +24,7 @@
     <body>
         <!-- HTML -->
 
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary container-fluid animate__animated animate__backInDown">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Technology In Animation</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,34 +33,21 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#navcontext">Context</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link active" aria-current="page" href="#navparts">Current Technologies and Advancements</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
+                    <a class="nav-link active" aria-current="page" href="#navpartb">Future Technologies</a>
                   </li>
                 </ul>
-                <form class="d-flex" role="search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
               </div>
             </div>
           </nav>
 
+          <div class="space" id="navhead">
+          </div>
           <div class="head col-lg-10 offset-lg-1">
             <div class="row align-items-start">
                 <div class="technologyin col-12">
@@ -69,7 +59,11 @@
             </div>
           </div>
 
-          <div class="head col-lg-10 offset-lg-1">
+          <div class="space" id="navcontext">
+
+          </div>
+
+          <div class="box col-lg-10 offset-lg-1">
             <div class="contexthead">
               History Of Animation
             </div>
@@ -80,16 +74,20 @@
               <div class="row col">
                 Another development of animation was the transition from 2D animation to 3D animation. The difference between the two animation types were that in 2D animation, artists would draw every frame while in 3D animation, you would create a 3D model of each part of the scene to make the animation "pop out" more. Even though animation was harder to animation, it was more expressive in the emotions and textures it can show. Many additional 3D animation softwares have also been created to make 3D animation easier and more natural.
               </div>
-              <div class="row col">
+              <div class="row col celimg">
                 <img src="cel-animation.png">
               </div>
             </div>
           </div>
 
-          <div class="row justify-content-evenly">
-            <div class="head col-5" id="3dbox">
+          <div class="space" id="navparts"></div>
+
+          <div class="row justify-content-evenly font">
+            <div class="box col-5">
               <h3>3d Animation Softwares</h3>
               Adobe animation (can also be 2d animation)
+              Adboe Animation is an animation software can be fore variety use. You can use it for 2d animation
+
               Main widespread animation software as you can do many different types of animation on it
               You can do 2d animation just as paper or just general 3d animation using vectors and even characters for video games. You can control the animation very easily and do a variety of things. There are animation software that can do more specific things but adobe animation can do some of the work pretty well.
               Blender
@@ -101,10 +99,9 @@
               </ul>
             </div>
             <div class="col-5">
-              <div class="head">
+              <div class="box">
                 <h3>2d animation</h3>
-                Adobe animate (explained above)
-                Toon boom harmony and Moho - both focus on 2d animation
+                Toon boom harmony and Moho both focus on 2d animation; Moho focus
                 Moho focuses on making animation more easy
                 Toon boom harmony focuses are more detailed 2d animation and making the characters appear better
                 Flip-a-clip (for beginners)
@@ -112,7 +109,8 @@
                 Frame by frames that has certain tools to make animation easy
                 Personally tinkered with myself
               </div>
-              <div class="head">
+              <div class="space2"></div>
+              <div class="box">
                 <h3>Hardware used in Animation</h3>
                 Tablets and ipads
                 You may just used your finger or get an ipad specific stylus
@@ -131,27 +129,29 @@
           </div>
         </div>
 
-        <div class="container head">
-          <div class="row">
-            <h3>Future Possible Technological Inventions</h3>
-            <div>
-            AI animation
-            Just like AI art but instead of just one drawing, it might be multiple frames
-            You may need one animation to show as a reference for the animation to work
-            You can type what you want the animation to go and the AI animation will show a new animation using the characters and scene from your reference animation
+        <div class="space" id="navpartb"></div>
+
+        <div class="container box">
+          <h3>Future Possible Technological Inventions</h3>
+            <div class="row">
+              <div class="font box col invention">
+                AI animation
+                Just like AI art but instead of just one drawing, it might be multiple frames
+                You may need one animation to show as a reference for the animation to work
+                You can type what you want the animation to go and the AI animation will show a new animation using the characters and scene from your reference animation
+              </div>
+              <div class="font box col invention">
+                Additional softwares that allows for more details and texture to those of real life
+                Software that makes animation so actors don’t need to act out entire thing
+                You would only need animators to do the animation
+                Super realistic
+              </div>
+              <div class="font box col invention">
+                Auto voice syncing software
+                Sometimes animate what the voice actors are saying for the animated character
+                Instead, the software will allow you to skip the step and voice sync it for you
+              </div>
             </div>
-            <div>
-            Additional softwares that allows for more details and texture to those of real life
-            Software that makes animation so actors don’t need to act out entire thing
-            You would only need animators to do the animation
-            Super realistic
-            </div>
-            <div>
-            Auto voice syncing software
-            Sometimes animate what the voice actors are saying for the animated character
-            Instead, the software will allow you to skip the step and voice sync it for you
-            </div>
-          </div>
         </div>
 
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>

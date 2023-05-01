@@ -5,17 +5,31 @@ body {
 
 .head {
     background-color: lightgreen;
-    margin-top: 30px;
     border-width: 5px;
     border-style: solid;
     border-color: limegreen;
     border-radius: 20px;
-    padding-bottom: 250px;
+    padding-bottom: 200px;
+    font-family: 'Bree Serif';
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.box {
+    background-color: lightgreen;
+    border-width: 5px;
+    border-style: solid;
+    border-color: limegreen;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-top: 30px;
 }
 .technologyin {
     text-align: center;
     font-size: 40px;
-    padding-top: 225px;
+    padding-top: 175px;
 }
 .animation {
     text-align: center;
@@ -31,10 +45,29 @@ body {
     padding-right: 40px;
     font-family: 'Bree Serif';
 }
-}
-#3dbox {
-    height: 500px;
 
+.navbar {
+    position: fixed;
+}
+
+.space {
+    height: 100px;
+}
+
+.space2 {
+    height: 50px;
+}
+.celimg {
+    width: 500px;
+}
+
+.font {
+    font-family: 'Bree Serif';
+}
+
+.invention {
+    margin-left: 20px;
+    margin-top: 10px;
 }
 @media (max-width: 992px) {
     .contexthead {
