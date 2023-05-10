@@ -25,6 +25,7 @@ body {
     padding-right: 40px;
     padding-bottom: 60px;
     padding-top: 30px;
+    margin-top: 30px;
 }
 .technologyin {
     text-align: center;
@@ -57,12 +58,12 @@ body {
 .space2 {
     height: 50px;
 }
-.celimg {
-    width: 500px;
-}
 
 .font {
     font-family: 'Bree Serif';
+}
+.fonttext {
+    font-size: 15px;
 }
 
 .invention {
@@ -81,14 +82,19 @@ body {
     padding-bottom: 60px;
     padding-top: 30px;
 
+#fontsize {
+    font-size: 20px;
+}
 @media (max-width: 992px) {
     .contexthead {
         text-align: center;
-        font-size: 30px;
+        font-size: 20px;
     }
     .context {
         font-size: 20px;
         padding-left: 40px;
         padding-right: 40px;
     }
+    .
+
 }
