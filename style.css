@@ -90,6 +90,10 @@ body {
     font-size: 20px;
 }
 
+.littlespace {
+    width: 20px;
+}
+
 .otherback {
     background-color: yellow;
     padding: 10px;
